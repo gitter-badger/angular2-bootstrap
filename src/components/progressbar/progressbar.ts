@@ -1,7 +1,6 @@
 import {Component, View, Attribute, onChange, coreDirectives} from 'angular2/angular2';
 
 // TODO: write unit tests
-// TODO: implement aria-valuemax
 // TODO: move view template into file (template bundling in build process needed)
 
 @Component({
@@ -14,7 +13,7 @@ import {Component, View, Attribute, onChange, coreDirectives} from 'angular2/ang
   template: `
   <div class="progress">
     <div class="progress-bar" role="progressbar"
-      [style.width]="percentWidth" aria-valuemin="0">
+      [style.width]="percentWidth" aria-valuemin="0" [attr.aria-valuemax]="max">
       <content></content>
       <span class="sr-only">{{percentWidth}}</span>
     </div>
