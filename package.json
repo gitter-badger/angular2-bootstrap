@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/SebastianM/angular2-bootstrap/issues"
   },
-  "homepage": "https://github.com/SebastianM/angular2-bootstrap"
+  "homepage": "https://github.com/SebastianM/angular2-bootstrap",
+  "dependencies": {
+    "angular2": "^2.0.0-alpha.26"
+  }
 }
