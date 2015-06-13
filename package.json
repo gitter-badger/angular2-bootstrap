@@ -1,0 +1,24 @@
+{
+  "name": "angular2-bootstrap",
+  "version": "0.1.0",
+  "description": "Native Angular2 direcitves for Bootstrap.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SebastianM/angular2-bootstrap"
+  },
+  "keywords": [
+    "angular2",
+    "bootstrap",
+    "twitter-bootstrap"
+  ],
+  "author": "Sebastian Müller",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SebastianM/angular2-bootstrap/issues"
+  },
+  "homepage": "https://github.com/SebastianM/angular2-bootstrap"
+}
