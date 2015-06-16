@@ -21,7 +21,15 @@
     "url": "https://github.com/SebastianM/angular2-bootstrap/issues"
   },
   "homepage": "https://github.com/SebastianM/angular2-bootstrap",
-  "dependencies": {
-    "angular2": "^2.0.0-alpha.26"
+  "dependencies": {},
+  "devDependencies": {
+    "angular2": "^2.0.0-alpha.26",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-plumber": "^1.0.1",
+    "gulp-typescript": "^2.7.6",
+    "systemjs": "^0.18.1",
+    "systemjs-builder": "^0.11.3",
+    "typescript": "^1.5.0-beta"
   }
 }

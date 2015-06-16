@@ -1,0 +1,21 @@
+language: node_js
+sudo: false
+node_js:
+- '0.12'
+
+cache:
+  directories:
+    - node_modules
+
+addons:
+  firefox: "38.0"
+
+install:
+  # Update npm
+  - npm install -g npm@2.9.1
+  - npm --version
+  - npm install
+  - npm install -g gulp
+
+script:
+- gulp
