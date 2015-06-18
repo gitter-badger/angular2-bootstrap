@@ -61,3 +61,7 @@ declare module Rx {
 		underlyingObservable: Observable<TElement>;
 	}
 }
+
+declare module "rx" {
+    export = Rx
+}

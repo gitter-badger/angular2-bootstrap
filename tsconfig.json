@@ -1,14 +1,15 @@
 {
     "version": "1.5.0-beta",
     "compilerOptions": {
-        "target": "es6",
+        "target": "es5",
+        "module": "commonjs",
         "declaration": true,
         "noImplicitAny": false,
         "removeComments": true,
         "noLib": false,
-        "emitDecoratorMetadata": false,
+        "emitDecoratorMetadata": true,
         "sourceMap": true,
-        "outDir": "dist/js/es6"
+        "outDir": "dist/js/dev/es5"
     },
     "filesGlob": [
         "./src/**/*.ts",
